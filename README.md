@@ -1,4 +1,4 @@
-# Guardians of the Secret Seven  
+# Guardians of the Sacred Seven  
 
 **Course:** COMP-214-T01 Project Management  
 **Team Members:**  
