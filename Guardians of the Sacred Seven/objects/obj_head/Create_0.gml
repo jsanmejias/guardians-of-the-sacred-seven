@@ -6,6 +6,9 @@ movement_direction = "up";
 
 points = 0;
 
+health = 0;      // Initial progress
+max_progress = 100; // Maximum progress
+
 start_body_parts = 3;
 
 body_part[0] = obj_head;
