@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bison_right",
-    "path":"sprites/bison_right/bison_right.yy",
+    "name":"person",
+    "path":"sprites/person/person.yy",
   },
   "spriteMaskId":null,
   "visible":true,

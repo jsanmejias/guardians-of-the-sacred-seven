@@ -52,6 +52,7 @@
     {"id":{"name":"bison_right","path":"sprites/bison_right/bison_right.yy",},},
     {"id":{"name":"bison_up","path":"sprites/bison_up/bison_up.yy",},},
     {"id":{"name":"obstacle","path":"sprites/obstacle/obstacle.yy",},},
+    {"id":{"name":"person","path":"sprites/person/person.yy",},},
     {"id":{"name":"teleporter","path":"sprites/teleporter/teleporter.yy",},},
     {"id":{"name":"token","path":"sprites/token/token.yy",},},
   ],
