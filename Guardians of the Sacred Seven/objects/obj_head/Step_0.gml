@@ -1,5 +1,9 @@
 move_timer --;
 
+if (instance_exists(obj_popup) && obj_popup.paused) {
+    return; // Skip this object's logic if the game is paused
+}
+
 if(keyboard_check(ord("W")) && image_angle != 180){
 	movement_direction = "up"
 }
@@ -41,7 +45,7 @@ if(move_timer <= 0){
 		image_angle = 270;
 	}
 	
-	for(i = 1;i < start_body_parts + points; i += 1){
+	for(i = 1; i < start_body_parts + points; i += 1){
 		
 		var _previous_x = body_part[i].x;
 		var _previous_y = body_part[i].y;
@@ -49,7 +53,6 @@ if(move_timer <= 0){
 		body_part[i].x = _previous_head_x;
 		body_part[i].y = _previous_head_y;
 		
-		//
 		_previous_head_x = _previous_x;
 		_previous_head_y = _previous_y;				
 	

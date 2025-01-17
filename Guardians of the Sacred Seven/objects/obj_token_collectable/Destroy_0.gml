@@ -1,13 +1,33 @@
-var _token_havent_spammed = true;
+// Local bar bounds
+var _bar_bounds = {x1: 10, y1: 10, x2: 210, y2: 30};
 
-while(_token_havent_spammed){
-	 x = -16 + 32 * round(random_range(32, room_width - 32) / 32);
-     y = -16 + 32 * round(random_range(32, room_height - 32) / 32);
-    // Check for overlap with other instances
-    if (!position_meeting(x, y, obj_obstacle) && 
-	!(x >= 10 && x <= 210 && y >= 10 && y <= 30)) {
-        // Create wall instance
-        instance_create_layer(x, y, "Instances",obj_token_collectable);
-		_token_havent_spammed = false;	
+// Define local helper function for overlap checking
+var _is_overlapping_bar = function(x, y, _bar_bounds, _token_width, _token_height) {
+    return (x + _token_width > _bar_bounds.x1 && x < _bar_bounds.x2 &&
+            y + _token_height > _bar_bounds.y1 && y < _bar_bounds.y2);
+};
+
+// Token dimensions
+var _token_width = 32;
+var _token_height = 32;
+
+// Token placement logic
+var _token_have_spammed = false;
+
+while (!_token_have_spammed) {
+    // Generate random coordinates aligned to a 32-pixel grid
+    x = 32 * irandom((room_width - _token_width) div 32);
+    y = 32 * irandom((room_height - _token_height) div 32);
+
+    // Check if placement is valid
+    if (x >= 0 && x <= room_width - _token_width &&
+        y >= 0 && y <= room_height - _token_height &&
+        !position_meeting(x, y, obj_obstacle) &&
+        !_is_overlapping_bar(x, y, _bar_bounds, _token_width, _token_height)) {
+        
+        // Create the token instance
+        instance_create_layer(x, y, "Instances", obj_token_collectable);
+        _token_have_spammed = true; // Exit loop after placing token
     }
 }
+
