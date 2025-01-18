@@ -5,7 +5,7 @@ points = 0;
 start_body_parts = 3;
 body_part[0] = obj_head;
 
-health = 0;      // Initial progress
+health = 80;      // Initial progress
 max_progress = 100; // Maximum progress
 
 
