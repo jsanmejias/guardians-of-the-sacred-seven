@@ -38,3 +38,5 @@ move_speed *= 0.85;
 //We destroy the current object, 
 //this runs the destroy event of the object we are collisioning with (token)
 instance_destroy(other);
+audio_play_sound( snd_coin, 10, false );
+

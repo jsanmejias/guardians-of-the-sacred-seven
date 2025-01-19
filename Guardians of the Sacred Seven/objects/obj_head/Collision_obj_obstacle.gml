@@ -16,3 +16,4 @@ if(health == 0){
 //Then we reduce the speed value by 25%, making the game actually 25% faster
 move_speed *= 0.75;
 instance_destroy(other);
+audio_play_sound( snd_bang, 10, false );

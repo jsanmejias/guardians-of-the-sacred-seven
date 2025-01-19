@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"song_main2",
+  "%Name":"msc_main2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":116.14041,
-  "name":"song_main2",
+  "name":"msc_main2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_main2.mp3",
+  "soundFile":"msc_main2.mp3",
   "type":0,
   "volume":1.0,
 }
