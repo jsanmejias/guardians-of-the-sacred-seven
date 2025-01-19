@@ -34,6 +34,7 @@
   },
   "name":"Guardians of the Sacred Seven",
   "resources":[
+    {"id":{"name":"music_manager","path":"objects/music_manager/music_manager.yy",},},
     {"id":{"name":"obj_body","path":"objects/obj_body/obj_body.yy",},},
     {"id":{"name":"obj_head","path":"objects/obj_head/obj_head.yy",},},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},
@@ -52,6 +53,9 @@
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_level_one","path":"rooms/rm_level_one/rm_level_one.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"set_song_ingame","path":"scripts/set_song_ingame/set_song_ingame.yy",},},
+    {"id":{"name":"song_main","path":"sounds/song_main/song_main.yy",},},
+    {"id":{"name":"song_main2","path":"sounds/song_main2/song_main2.yy",},},
     {"id":{"name":"background_level_one","path":"sprites/background_level_one/background_level_one.yy",},},
     {"id":{"name":"background_main_menu","path":"sprites/background_main_menu/background_main_menu.yy",},},
     {"id":{"name":"bison_down","path":"sprites/bison_down/bison_down.yy",},},
