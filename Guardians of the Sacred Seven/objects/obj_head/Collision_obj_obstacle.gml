@@ -15,7 +15,13 @@ if(health == 0){
 }
 
 //After all that if game does not restart it means we are still alive
-//Then we reduce the speed value by 25%, making the game actually 25% faster
-move_speed *= 0.75;
+//Then we reduce the speed value by 25% when max speed has not been reached
+//, making the game actually 25% faster
+if(move_speed > max_speed){
+	//max_speed is 0.08
+	move_speed *= 0.75;
+}
+
+
 screenshake(30, 5, 0.2);
 instance_destroy(other);

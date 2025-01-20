@@ -34,8 +34,12 @@ for(i = 0; i < 3; i++){
 	body_part[start_body_parts + points - 1] = instance_create_layer(_new_body_x, _new_body_y, "Instances", obj_body);
 }
 
-//Change the speed, when we make it a lower number it actually makes it faster
-move_speed *= 0.85;
+//Change the speed, just when max speed has not been reached
+//when we make it a lower number it actually makes it faster
+if(move_speed > max_speed){
+	move_speed *= 0.85;
+}
+
 
 //We destroy the current object, 
 //this runs the destroy event of the object we are collisioning with (token)
