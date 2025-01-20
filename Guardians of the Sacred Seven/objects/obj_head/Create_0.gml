@@ -4,11 +4,8 @@ movement_direction = "up";
 points = 0;
 start_body_parts = 3;
 body_part[0] = obj_head;
-
-health = 80;      // Initial progress
+health = 0;      // Initial progress
 max_progress = 100; // Maximum progress
-
-
 
 for(i = 1; i < start_body_parts; i++){
  

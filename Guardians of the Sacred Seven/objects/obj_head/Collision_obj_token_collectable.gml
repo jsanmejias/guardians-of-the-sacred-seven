@@ -40,3 +40,4 @@ move_speed *= 0.85;
 instance_destroy(other);
 audio_play_sound( snd_coin, 10, false );
 
+
