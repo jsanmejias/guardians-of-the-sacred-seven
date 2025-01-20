@@ -61,3 +61,4 @@ if(move_timer <= 0){
 	move_timer = move_speed * game_get_speed(gamespeed_fps);
 	
 }
+

@@ -3,6 +3,8 @@
 //First we add 10 to the health(progress) we need to use health as variable because GameMaker 
 //takes this variable to interact with progress bar
 
+audio_play_sound( snd_coin, 10, false );
+
 health += 10; // Increase progress by 10
 
 //We check if the health (progress) is equeal to the max progress
@@ -38,6 +40,5 @@ move_speed *= 0.85;
 //We destroy the current object, 
 //this runs the destroy event of the object we are collisioning with (token)
 instance_destroy(other);
-audio_play_sound( snd_coin, 10, false );
 
 
