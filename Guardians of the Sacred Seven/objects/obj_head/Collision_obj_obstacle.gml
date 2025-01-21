@@ -11,7 +11,8 @@ if(health > 0){
 
 //If the case is that reducing the progress by 10 it goes to 0, then the game restart
 if(health == 0){
-	game_restart();
+	//game_restart();
+	room_goto(rm_game_over);
 }
 
 //After all that if game does not restart it means we are still alive

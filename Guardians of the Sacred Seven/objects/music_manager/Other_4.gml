@@ -10,3 +10,9 @@ if room == rm_level_one
 {
 	set_song_ingame( msc_main, 3*60 );
 }
+
+if room == rm_game_over
+{
+	set_song_ingame(noone)
+	audio_play_sound( snd_game_over, 10, false );
+}
