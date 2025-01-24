@@ -9,16 +9,16 @@ health += 10; // Increase progress by 10
 
 //We check if the health (progress) is equeal to the max progress
 if (health == max_progress) {
-	
+	audio_stop_sound(snd_timer_tick);
 	//Here the player has finished the game by reaching the max progress 
 	
 	//We properties on the popup instance
 	with (obj_popup) {
 		
 		//Change the text from "" to the next message
-		message = "Respect is to be a giving and sharing people, first and foremost,\n" +
-          "following the example of the buffalo who gave its whole being\n" +
-          "for the life of the people.\n\n" +
+		message = "The buffalo symbolizes respect for oneself, others, and the environment.\n" +
+          "It teaches individuals to honor the diversity and uniqueness of every\n" + 
+		  "person and to live in harmony with the natural world.\n\n" + 
           "Press Enter to exit.";
 
 		visible = true;               // Make the popup visible
