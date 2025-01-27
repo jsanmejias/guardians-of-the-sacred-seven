@@ -1,4 +1,8 @@
 //When collisioning with an obstacle this code runs
+if(timer > 44){
+	return;
+}
+
 
 audio_play_sound( snd_bang, 10, false );
 
@@ -11,7 +15,6 @@ if(health > 0){
 
 //If the case is that reducing the progress by 10 it goes to 0, then the game restart
 if(health == 0){
-	//game_restart();
 	room_goto(rm_game_over);
 }
 
@@ -19,7 +22,6 @@ if(health == 0){
 //Then we reduce the speed value by 25% when max speed has not been reached
 //, making the game actually 25% faster
 if(move_speed > max_speed){
-	//max_speed is 0.08
 	move_speed *= 0.75;
 }
 
