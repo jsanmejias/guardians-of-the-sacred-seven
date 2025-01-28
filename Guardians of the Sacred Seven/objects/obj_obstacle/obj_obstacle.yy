@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"obstacle",
-    "path":"sprites/obstacle/obstacle.yy",
+    "name":"rock",
+    "path":"sprites/rock/rock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

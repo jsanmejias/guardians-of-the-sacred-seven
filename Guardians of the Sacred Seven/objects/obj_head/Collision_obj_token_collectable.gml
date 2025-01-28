@@ -14,6 +14,10 @@ if (health == max_progress) {
 	
 	//We properties on the popup instance
 	with (obj_popup) {
+		audio_stop_all(); // kill the music and any lingering sound effects
+		audio_play_sound( snd_coin, 10, false ); // play sound for last token collection
+		audio_play_sound( snd_buffalo_reading, 10, false ); // play audio reading
+		audio_sound_gain( snd_buffalo_reading, 8, 10 ); // increase volume for the reading
 		
 		//Change the text from "" to the next message
 		message = "The buffalo symbolizes respect for oneself, others, and the environment.\n" +
