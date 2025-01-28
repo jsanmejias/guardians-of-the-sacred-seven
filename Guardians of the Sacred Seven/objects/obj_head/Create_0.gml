@@ -8,7 +8,7 @@ sound_playing = false; // Keeps track of whether the sound is playing
 
 start_body_parts = 3;
 body_part[0] = obj_head;
-health = 80;      // Initial progress
+health = 00;      // Initial progress
 max_progress = 100; // Maximum progress
 
 
