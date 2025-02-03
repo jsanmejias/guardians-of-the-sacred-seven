@@ -1,4 +1,4 @@
-// Local bar bounds
+// Local bar bounds 
 var _bar_bounds = {x1: 10, y1: 10, x2: 210, y2: 30};
 
 // Define local helper function for overlap checking
@@ -8,26 +8,36 @@ var _is_overlapping_bar = function(x, y, _bar_bounds, _token_width, _token_heigh
 };
 
 // Token dimensions
-var _token_width = 32;
+var _token_width  = 32;
 var _token_height = 32;
 
-// Token placement logic
+// We want to spawn a new token after one is destroyed
 var _token_have_spammed = false;
+var _px, _py;
 
 while (!_token_have_spammed) {
-    // Generate random coordinates aligned to a 32-pixel grid
-    x = 32 * irandom((room_width - _token_width) div 32);
-    y = 32 * irandom((room_height - _token_height) div 32);
 
-    // Check if placement is valid
-    if (x >= 0 && x <= room_width - _token_width &&
-        y >= 0 && y <= room_height - _token_height &&
-        !position_meeting(x, y, obj_obstacle) &&
-        !_is_overlapping_bar(x, y, _bar_bounds, _token_width, _token_height)) {
+    // Random position aligned to 32-pixel grid:
+    _px = 32 * irandom((room_width  - _token_width ) div 32);
+    _py = 32 * irandom((room_height - _token_height) div 32);
+
+    // 1) Check bounding-box collision with obstacles:
+    //    "false, false" => not using precise collisions, not ignoring ourselves
+    if (!collision_rectangle(_px, _py,
+                             _px + _token_width, _py + _token_height,
+                             obj_obstacle, false, false)
+        &&
+        // 2) Check bar overlap logic
+        !_is_overlapping_bar(_px, _py, _bar_bounds, _token_width, _token_height))
+    {
+        // Create the token
+        var _new_token = instance_create_layer(_px, _py, "Instances", obj_token_collectable);
         
-        // Create the token instance
-        instance_create_layer(x, y, "Instances", obj_token_collectable);
-        _token_have_spammed = true; // Exit loop after placing token
+        // Show a debug message to confirm the coordinates
+        show_debug_message("TOKEN CREATED AT: (" + string(_px) + ", " + string(_py) + ")");
+
+        _token_have_spammed = true;
     }
 }
+
 

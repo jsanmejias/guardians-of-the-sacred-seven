@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"rock",
   "bboxMode":0,
-  "bbox_bottom":99,
+  "bbox_bottom":95,
   "bbox_left":0,
   "bbox_right":31,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":100,
+  "height":96,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"91c08f48-74ce-47a6-86bc-dbc50ac63221","blendMode":0,"displayName":"default","isLocked":false,"name":"91c08f48-74ce-47a6-86bc-dbc50ac63221","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
