@@ -18,8 +18,8 @@
   "name":"obj_head",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"level_one",
+    "path":"folders/Objects/level_one.yy",
   },
   "parentObjectId":null,
   "persistent":false,

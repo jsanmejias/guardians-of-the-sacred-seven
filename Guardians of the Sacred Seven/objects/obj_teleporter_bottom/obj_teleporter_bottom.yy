@@ -6,8 +6,8 @@
   "name":"obj_teleporter_bottom",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Utils",
+    "path":"folders/Objects/Utils.yy",
   },
   "parentObjectId":null,
   "persistent":false,

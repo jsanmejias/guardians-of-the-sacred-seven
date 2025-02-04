@@ -10,8 +10,8 @@
   "name":"obj_restart_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"credits",
+    "path":"folders/Objects/credits.yy",
   },
   "parentObjectId":null,
   "persistent":false,
