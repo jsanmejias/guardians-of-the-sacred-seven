@@ -8,6 +8,7 @@ if room == rm_menu
 }
 
 if room == rm_level_one
+|| rm_level_two
 {
 	set_song_ingame( msc_main3, 10, 10 );
 }

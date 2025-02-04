@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_token_controller",
+  "%Name":"obj_obstacle_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_token_controller",
+  "name":"obj_obstacle_1",
   "overriddenProperties":[],
   "parent":{
     "name":"level_one",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"rock_1",
+    "path":"sprites/rock_1/rock_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -25,13 +25,13 @@ while (!_token_have_spammed) {
     //    "false, false" => not using precise collisions, not ignoring ourselves
     if (!collision_rectangle(_px, _py,
                              _px + _token_width, _py + _token_height,
-                             obj_obstacle, false, false)
+                             obj_obstacle_2, false, false)
         &&
         // 2) Check bar overlap logic
         !_is_overlapping_bar(_px, _py, _bar_bounds, _token_width, _token_height))
     {
         // Create the token
-        var _new_token = instance_create_layer(_px, _py, "Instances", obj_token_collectable);
+        var _new_token = instance_create_layer(_px, _py, "Instances", obj_token_collectable_2);
         
         // Show a debug message to confirm the coordinates
         show_debug_message("TOKEN CREATED AT: (" + string(_px) + ", " + string(_py) + ")");

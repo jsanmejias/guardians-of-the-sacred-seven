@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_token_controller",
+  "%Name":"obj_popup_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_token_controller",
+  "name":"obj_popup_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"level_one",
-    "path":"folders/Objects/level_one.yy",
+    "name":"level_two",
+    "path":"folders/Objects/level_two.yy",
   },
   "parentObjectId":null,
   "persistent":false,

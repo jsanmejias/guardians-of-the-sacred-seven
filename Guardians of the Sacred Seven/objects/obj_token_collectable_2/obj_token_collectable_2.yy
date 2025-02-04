@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"token",
-    "path":"sprites/token/token.yy",
+    "name":"token_2",
+    "path":"sprites/token_2/token_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

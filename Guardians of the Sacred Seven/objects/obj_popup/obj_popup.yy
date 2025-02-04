@@ -10,8 +10,8 @@
   "name":"obj_popup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utils",
-    "path":"folders/Objects/Utils.yy",
+    "name":"level_one",
+    "path":"folders/Objects/level_one.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,7 +10,7 @@ for (_i = 0; _i < 5; _i++) {
     for (_j = 0; _j < 3; _j++) {
         _x_pos = 150 + (_i * _step_x);
         _y_pos = 100 + (_j * _step_y);
-        instance_create_layer(_x_pos, _y_pos, "Instances", obj_obstacle);
+        instance_create_layer(_x_pos, _y_pos, "Instances", obj_obstacle_2);
     }
 }
 

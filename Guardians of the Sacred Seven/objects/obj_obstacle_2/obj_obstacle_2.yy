@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"rock",
-    "path":"sprites/rock/rock.yy",
+    "name":"rock_2",
+    "path":"sprites/rock_2/rock_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
