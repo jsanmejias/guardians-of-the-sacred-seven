@@ -1,7 +1,7 @@
 move_timer--;
 
 // Check if the game is paused
-if (instance_exists(obj_popup) && obj_popup.paused) {
+if (instance_exists(obj_popup_2) && obj_popup_2.paused) {
     return; // Skip all logic, including the timer decrement
 }
 
