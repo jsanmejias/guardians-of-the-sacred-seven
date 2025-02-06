@@ -21,11 +21,13 @@ while (!_token_have_spammed) {
     _px = 32 * irandom((room_width  - _token_width ) div 32);
     _py = 32 * irandom((room_height - _token_height) div 32);
 
-    // 1) Check bounding-box collision with obstacles:
+    // 1) Check bounding-box collision with *both* obstacle objects
     //    "false, false" => not using precise collisions, not ignoring ourselves
-    if (!collision_rectangle(_px, _py,
-                             _px + _token_width, _py + _token_height,
+    if (!collision_rectangle(_px, _py, _px + _token_width, _py + _token_height,
                              obj_obstacle, false, false)
+        &&
+        !collision_rectangle(_px, _py, _px + _token_width, _py + _token_height,
+                             obj_obstacle_1, false, false)
         &&
         // 2) Check bar overlap logic
         !_is_overlapping_bar(_px, _py, _bar_bounds, _token_width, _token_height))
@@ -39,5 +41,6 @@ while (!_token_have_spammed) {
         _token_have_spammed = true;
     }
 }
+
 
 
