@@ -81,6 +81,7 @@
     {"id":{"name":"msc_main3","path":"sounds/msc_main3/msc_main3.yy",},},
     {"id":{"name":"msc_main4","path":"sounds/msc_main4/msc_main4.yy",},},
     {"id":{"name":"snd_bang","path":"sounds/snd_bang/snd_bang.yy",},},
+    {"id":{"name":"snd_bear_reading","path":"sounds/snd_bear_reading/snd_bear_reading.yy",},},
     {"id":{"name":"snd_buffalo_reading","path":"sounds/snd_buffalo_reading/snd_buffalo_reading.yy",},},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
     {"id":{"name":"snd_game_over","path":"sounds/snd_game_over/snd_game_over.yy",},},

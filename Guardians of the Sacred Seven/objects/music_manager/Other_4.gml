@@ -8,8 +8,14 @@ if room == rm_menu
 }
 
 if room == rm_level_one
-|| rm_level_two
 {
+	set_song_ingame( msc_main3, 10, 10 );
+}
+
+if room == rm_level_two
+{
+	
+	audio_stop_sound(snd_buffalo_reading);
 	set_song_ingame( msc_main3, 10, 10 );
 }
 
