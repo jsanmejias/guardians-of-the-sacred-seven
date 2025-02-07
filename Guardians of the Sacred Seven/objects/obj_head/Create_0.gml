@@ -1,5 +1,5 @@
 move_speed = 0.4;
-max_speed = 0.08;
+max_speed = 0.2;
 timer = 45; // Timer starts at 60 seconds
 move_timer = move_speed * game_get_speed(gamespeed_fps);
 movement_direction = "up";
@@ -9,7 +9,7 @@ sound_playing = false; // Keeps track of whether the sound is playing
 
 start_body_parts = 3;
 body_part[0] = obj_head;
-health = 0;      // Initial progress
+health = 00;      // Initial progress
 max_progress = 100; // Maximum progress
 
 

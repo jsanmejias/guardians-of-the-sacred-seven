@@ -15,10 +15,7 @@ if room == rm_level_one
 
 if room == rm_level_two
 {
-	
-	audio_stop_sound(snd_buffalo_reading);
 	audio_resume_sound(msc_main3);
-
 }
 
 if room == rm_game_over
