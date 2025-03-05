@@ -22,7 +22,7 @@ if (health == max_progress) {
 		//Change the text from "" to the next message
 		message = "The bear symbolizes courage and the strength to face adversity.\n" +
           "It encourages individuals to overcome fear, stand up for what is right,\n" + 
-		  "and persevere  in the face of challenges.\n\n" + 
+		  "and persevere in the face of challenges.\n\n" + 
           "Press Enter to exit.";
 		  
 
