@@ -9,9 +9,9 @@ sound_playing = false; // Keeps track of whether the sound is playing
 
 start_body_parts = 3;
 body_part[0] = obj_head;
-health = 00;      // Initial progress
+health = 80;      // Initial progress
 max_progress = 100; // Maximum progress
-
+global.previous_room = room; // save the room name so that you can replay when you get game over
 
 for(i = 1; i < start_body_parts; i++){
  
