@@ -5,7 +5,7 @@ if (visible) {
     if (keyboard_check_pressed(vk_enter)) {
 		//game_restart();
 		room_goto(rm_level_two);
-		audio_stop_sound(snd_buffalo_reading)
+		audio_stop_sound(snd_buffalo)
     }
 } else {
     paused = false; // Unpause when popup is not visible
