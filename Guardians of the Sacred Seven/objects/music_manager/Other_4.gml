@@ -21,6 +21,6 @@ if room == rm_level_two
 if room == rm_game_over
 {
 	audio_stop_sound(snd_timer_tick);
-	set_song_ingame(noone);
+	audio_pause_all();
 	audio_play_sound( snd_game_over, 10, false );
 }

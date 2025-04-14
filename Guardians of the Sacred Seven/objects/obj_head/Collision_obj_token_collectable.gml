@@ -3,41 +3,15 @@
 //First we add 10 to the health(progress) we need to use health as variable because GameMaker 
 //takes this variable to interact with progress bar
 
-audio_play_sound( snd_coin, 10, false );
-
 health += 10; // Increase progress by 10
 
-////We check if the health (progress) is equeal to the max progress
-//if (health == max_progress) {
-//	audio_stop_sound(snd_timer_tick);
-//	//Here the player has finished the game by reaching the max progress 
-	
-//	//We properties on the popup instance
-//	with (obj_popup) {
-//		audio_pause_all();
-//		audio_play_sound( snd_coin, 10, false ); // play sound for last token collection
-//		audio_play_sound( snd_buffalo_reading, 10, false ); // play audio reading
-//		audio_sound_gain( snd_buffalo_reading, 8, 10 ); // increase volume for the reading
-		
-//		//Change the text from "" to the next message
-//		message = "The buffalo symbolizes respect for oneself, others, and the environment.\n" +
-//          "It teaches individuals to honor the diversity and uniqueness of every\n" + 
-//		  "person and to live in harmony with the natural world.\n\n" + 
-//          "Press Enter to exit.";
-
-//		visible = true;               // Make the popup visible
-//	}
-	
-//}
-
-
-
-
+audio_play_sound( snd_coin, 10, false );
 
 //We check if the health (progress) is equeal to the max progress
+//Here the player has finished the game by reaching the max progress
 if (health == max_progress) {
+	audio_pause_all(); 
 	audio_stop_sound(snd_timer_tick);
-	//Here the player has finished the game by reaching the max progress
 	room_goto(rm_educational_level);
 }
 	
