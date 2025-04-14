@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_turtle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":12.4865,
+  "name":"snd_turtle",
+  "parent":{
+    "name":"Replacement Readings",
+    "path":"folders/Sounds/Replacement Readings.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_turtle.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -37,7 +37,7 @@ health += 10; // Increase progress by 10
 //We check if the health (progress) is equeal to the max progress
 if (health == max_progress) {
 	audio_stop_sound(snd_timer_tick);
-	//Here the player has finished the game by reaching the max progress 
+	//Here the player has finished the game by reaching the max progress
 	room_goto(rm_educational_level);
 }
 	
