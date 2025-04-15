@@ -12,7 +12,7 @@ audio_play_sound( snd_coin, 10, false );
 if (health == max_progress) {
 	audio_pause_all(); 
 	audio_stop_sound(snd_timer_tick);
-	room_goto(rm_educational_level);
+	room_goto(rm_credits);
 }
 	
 
@@ -22,7 +22,7 @@ for(i = 0; i < 3; i++){
 	points++;
 	var _new_body_x = body_part[start_body_parts + points - 2].x;
 	var _new_body_y = body_part[start_body_parts + points - 2].y;
-	body_part[start_body_parts + points - 1] = instance_create_layer(_new_body_x, _new_body_y, "Instances", obj_body);
+	body_part[start_body_parts + points - 1] = instance_create_layer(_new_body_x, _new_body_y, "Instances", obj_body_7);
 }
 
 //Change the speed, just when max speed has not been reached

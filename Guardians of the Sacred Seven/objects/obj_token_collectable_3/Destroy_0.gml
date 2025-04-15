@@ -20,13 +20,13 @@ while (!_token_have_spammed) {
 
     // Check bounding-box collision with obstacle objects
     if (!collision_rectangle(_px, _py, _px + _token_width, _py + _token_height,
-                             obj_obstacle, false, false)
+                             obj_obstacle_4, false, false)
         &&
         !collision_rectangle(_px, _py, _px + _token_width, _py + _token_height,
-                             obj_obstacle_1, false, false))
+                             obj_obstacle_5, false, false))
     {
         // Create the token
-        var _new_token = instance_create_layer(_px, _py, "Instances", obj_token_collectable);
+        var _new_token = instance_create_layer(_px, _py, "Instances", obj_token_collectable_3);
 
         // Show a debug message to confirm the coordinates
         show_debug_message("TOKEN CREATED AT: (" + string(_px) + ", " + string(_py) + ")");

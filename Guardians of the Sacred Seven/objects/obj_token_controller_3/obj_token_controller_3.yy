@@ -8,8 +8,8 @@
   "name":"obj_token_controller_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"level_one",
-    "path":"folders/Objects/level_one.yy",
+    "name":"level_three",
+    "path":"folders/Objects/level_three.yy",
   },
   "parentObjectId":null,
   "persistent":false,

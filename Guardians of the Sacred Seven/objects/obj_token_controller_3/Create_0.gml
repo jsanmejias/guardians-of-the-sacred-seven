@@ -19,13 +19,13 @@ while (!_token_have_spammed)
 
     // Ensure the token's bounding box does NOT collide with either obstacle
     if (!collision_rectangle(x, y, x + _token_width, y + _token_height,
-                             obj_obstacle, false, false)
+                             obj_obstacle_4, false, false)
         &&
         !collision_rectangle(x, y, x + _token_width, y + _token_height,
-                             obj_obstacle_1, false, false))
+                             obj_obstacle_5, false, false))
     {
         // Create the token on the "Instances" layer
-        instance_create_layer(x, y, "Instances", obj_token_collectable);
+        instance_create_layer(x, y, "Instances", obj_token_collectable_3);
 
         // Debug message to verify placement
         show_debug_message("TOKEN CREATED AT: (" + string(x) + ", " + string(y) + ")");

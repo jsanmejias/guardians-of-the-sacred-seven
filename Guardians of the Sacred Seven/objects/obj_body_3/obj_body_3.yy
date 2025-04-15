@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bison_down",
-    "path":"sprites/bison_down/bison_down.yy",
+    "name":"eagle_3",
+    "path":"sprites/eagle_3/eagle_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
