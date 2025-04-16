@@ -9,27 +9,11 @@ health += 10; // Increase progress by 10
 
 //We check if the health (progress) is equeal to the max progress
 if (health == max_progress) {
+	audio_pause_all(); 
 	audio_stop_sound(snd_timer_tick);
-	//Here the player has finished the game by reaching the max progress 
-	
-	//We properties on the popup instance
-	with (obj_popup_2) {
-		audio_pause_all();
-		audio_play_sound( snd_coin, 10, false ); // play sound for last token collection
-		audio_play_sound( snd_bear, 10, false ); // play audio reading
-		//audio_sound_gain( snd_bear_reading, 5, 10 ); // increase volume for the reading
-		
-		//Change the text from "" to the next message
-		message = "The bear symbolizes courage and the strength to face adversity.\n" +
-          "It encourages individuals to overcome fear, stand up for what is right,\n" + 
-		  "and persevere in the face of challenges.\n\n" + 
-          "Press Enter to exit.";
-		  
-
-		visible = true;               // Make the popup visible
-	}
-	
+	room_goto(rm_educational_level);
 }
+
 
 //Every time we hit a token it adds 3 body parts
 for(i = 0; i < 3; i++){

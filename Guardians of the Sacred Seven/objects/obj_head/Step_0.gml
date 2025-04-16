@@ -1,10 +1,5 @@
 move_timer--;
 
-// Check if the game is paused
-if (instance_exists(obj_popup) && obj_popup.paused) {
-    return; // Skip all logic, including the timer decrement
-}
-
 // Timer countdown logic
 if (timer > 0) {
     timer -= 1 / game_get_speed(gamespeed_fps); // Subtracts time based on the frame rate

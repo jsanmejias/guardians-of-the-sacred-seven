@@ -12,7 +12,7 @@ audio_play_sound( snd_coin, 10, false );
 if (health == max_progress) {
 	audio_pause_all(); 
 	audio_stop_sound(snd_timer_tick);
-	room_goto(rm_level_six);
+	room_goto(rm_educational_level);
 }
 	
 
