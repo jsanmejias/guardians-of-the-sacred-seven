@@ -2,7 +2,7 @@ move_timer--;
 
 // Timer countdown logic
 if (timer > 0) {
-    timer -= 1 / game_get_speed(gamespeed_fps); // Subtracts time based on the frame rate
+    global.counter -= 1 / game_get_speed(gamespeed_fps); // Subtracts time based on the frame rate
 }
 
 // Play the sound only once when the timer is less than 10

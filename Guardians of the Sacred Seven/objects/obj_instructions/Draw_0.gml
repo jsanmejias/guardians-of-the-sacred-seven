@@ -1,16 +1,3 @@
-
-
-//draw_set_alpha(0.7);
-//draw_rectangle(room_width / 2 - 250, room_height - 110, room_width / 2 + 310, room_height - 80, false);
-//// Set the color for the text
-//draw_set_color(c_black);
-
-//draw_set_alpha(1); // Reset transparency
-//draw_set_color(c_white);
-//draw_set_font(-1); // Optional: set a specific font if desired
-//draw_text(room_width / 2 - 240, room_height - 100, "Instructions: W = Up, S = Down, A = Left, D = Right");
-
-
 // Draw semi-transparent background
 draw_set_alpha(0.9);
 draw_set_color(c_ltgray); // Dark background

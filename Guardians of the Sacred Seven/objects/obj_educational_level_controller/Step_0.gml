@@ -28,8 +28,6 @@ if (keyboard_check_pressed(vk_enter)) {
             break;
         case rm_level_seven:
 			audio_pause_sound(snd_beaver);
-            // You can either restart the game, go to a win screen, or loop
-            // For example:
             room_goto(rm_credits); // <- Change this to whatever your final screen is
             break;
     }

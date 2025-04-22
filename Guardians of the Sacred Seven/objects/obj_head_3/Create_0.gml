@@ -1,6 +1,7 @@
 move_speed = 0.4;
 max_speed = 0.2;
-timer = 45; // Timer starts at 60 seconds
+global.counter = 45;
+timer = global.counter; 
 move_timer = move_speed * game_get_speed(gamespeed_fps);
 movement_direction = "up";
 next_direction = "up"; 
