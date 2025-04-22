@@ -1,5 +1,5 @@
 //When collisioning with an obstacle this code runs
-if(timer > 44){
+if(global.counter > 44){
 	return;
 }
 
