@@ -31,10 +31,3 @@ instance_create_layer(715, 504, "Instances", obj_obstacle_1);
 
 
 
-
-
-
-
-
-
-

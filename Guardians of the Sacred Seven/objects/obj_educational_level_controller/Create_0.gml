@@ -49,6 +49,7 @@ if (bg_sprite != noone) {
 
 // Play the corresponding audio
 if (snd != noone) {
+	audio_play_sound(snd_coin, 5, false);
     audio_play_sound(snd, 10, false);
     audio_sound_gain(snd, 8, 10);
 }
