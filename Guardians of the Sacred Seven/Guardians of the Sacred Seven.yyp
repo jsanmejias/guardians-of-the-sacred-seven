@@ -59,6 +59,7 @@
   },
   "name":"Guardians of the Sacred Seven",
   "resources":[
+    {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
     {"id":{"name":"music_manager","path":"objects/music_manager/music_manager.yy",},},
     {"id":{"name":"obj_body_2","path":"objects/obj_body_2/obj_body_2.yy",},},
     {"id":{"name":"obj_body_3","path":"objects/obj_body_3/obj_body_3.yy",},},
