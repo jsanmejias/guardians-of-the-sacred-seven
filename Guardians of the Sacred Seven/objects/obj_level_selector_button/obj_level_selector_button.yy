@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_educational_level_controller",
+  "%Name":"obj_level_selector_button",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_educational_level_controller",
+  "name":"obj_level_selector_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"educational_level",
-    "path":"folders/Objects/educational_level.yy",
+    "name":"main_menu",
+    "path":"folders/Objects/main_menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_main_menu_buttons_parent",
+    "path":"objects/obj_main_menu_buttons_parent/obj_main_menu_buttons_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_main_menu_button",
+    "path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

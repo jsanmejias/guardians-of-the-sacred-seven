@@ -1,7 +1,7 @@
-if (keyboard_check_pressed(vk_enter)) {
-    
+window_set_cursor(cr_default);
 
-    switch (global.current_room) {
+if(visible){
+	switch (global.current_room) {
         case rm_level_one:
 			audio_pause_sound(snd_buffalo);
             room_goto(rm_level_two);
@@ -30,5 +30,7 @@ if (keyboard_check_pressed(vk_enter)) {
 			audio_pause_sound(snd_beaver);
             room_goto(rm_credits); // <- Change this to whatever your final screen is
             break;
-    }
+	}
+
 }
+

@@ -47,9 +47,9 @@ if (bg_sprite != noone) {
     layer_sprite_create(bg_layer_id, 0, 0, bg_sprite);
 }
 
-// Play the corresponding audio
+
 if (snd != noone) {
-	audio_play_sound(snd_coin, 5, false);
-    audio_play_sound(snd, 10, false);
-    audio_sound_gain(snd, 8, 10);
+    //audio_play_sound(snd_coin, 5, false); // This is fine as is
+    global.snd_id = audio_play_sound(snd, 10, false); // Save the ID
+    audio_sound_gain(global.snd_id, 8, 10); // Apply fade-in volume
 }
