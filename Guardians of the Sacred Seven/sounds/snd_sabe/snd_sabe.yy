@@ -12,8 +12,8 @@
   "duration":9.87425,
   "name":"snd_sabe",
   "parent":{
-    "name":"Replacement Readings",
-    "path":"folders/Sounds/Replacement Readings.yy",
+    "name":"Readings",
+    "path":"folders/Sounds/Readings.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

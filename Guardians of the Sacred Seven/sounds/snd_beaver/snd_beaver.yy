@@ -12,8 +12,8 @@
   "duration":10.736313,
   "name":"snd_beaver",
   "parent":{
-    "name":"Replacement Readings",
-    "path":"folders/Sounds/Replacement Readings.yy",
+    "name":"Readings",
+    "path":"folders/Sounds/Readings.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -14,9 +14,9 @@ if room == rm_level_one
 	
 }
 
-if room == rm_level_one 
-||room == rm_level_two
-|| room == rm_level_three
+if room == rm_level_two 
+||room == rm_level_three
+//|| room == rm_level_one
 || room == rm_level_four
 || room == rm_level_five
 || room == rm_level_six

@@ -12,8 +12,8 @@
   "duration":12.930563,
   "name":"snd_wolf",
   "parent":{
-    "name":"Replacement Readings",
-    "path":"folders/Sounds/Replacement Readings.yy",
+    "name":"Readings",
+    "path":"folders/Sounds/Readings.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

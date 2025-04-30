@@ -3,17 +3,17 @@ var snd = noone;
 
 // Choose the correct sprite and sound based on the previous level
 switch (global.current_room) {
-    case rm_level_one:
+	    case rm_level_one:
+        bg_sprite = educational_room_eagle;
+        snd = snd_eagle;
+        break;
+    case rm_level_two:
         bg_sprite = educational_room_buffalo;
         snd = snd_buffalo;
         break;
-    case rm_level_two:
+    case rm_level_three:
         bg_sprite = educational_room_bear;
         snd = snd_bear;
-        break;
-    case rm_level_three:
-        bg_sprite = educational_room_eagle;
-        snd = snd_eagle;
         break;
     case rm_level_four:
         bg_sprite = educational_room_turtle;
@@ -51,5 +51,5 @@ if (bg_sprite != noone) {
 if (snd != noone) {
     //audio_play_sound(snd_coin, 5, false); // This is fine as is
     global.snd_id = audio_play_sound(snd, 10, false); // Save the ID
-    audio_sound_gain(global.snd_id, 8, 10); // Apply fade-in volume
+    //audio_sound_gain(global.snd_id, 8, 10); // Apply fade-in volume
 }
