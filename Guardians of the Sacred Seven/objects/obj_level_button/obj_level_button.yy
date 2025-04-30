@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_play_button",
+  "%Name":"obj_level_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_play_button",
+  "name":"obj_level_button",
   "overriddenProperties":[],
   "parent":{
     "name":"main_menu",
@@ -34,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_main_menu_button",
-    "path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",
+    "name":"spr_level_button",
+    "path":"sprites/spr_level_button/spr_level_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
