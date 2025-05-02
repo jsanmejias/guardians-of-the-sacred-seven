@@ -147,6 +147,7 @@
     {"id":{"name":"shaking_effect","path":"scripts/shaking_effect/shaking_effect.yy",},},
     {"id":{"name":"msc_main3","path":"sounds/msc_main3/msc_main3.yy",},},
     {"id":{"name":"msc_main4","path":"sounds/msc_main4/msc_main4.yy",},},
+    {"id":{"name":"snd__main_song_tapwe","path":"sounds/snd__main_song_tapwe/snd__main_song_tapwe.yy",},},
     {"id":{"name":"snd_bang","path":"sounds/snd_bang/snd_bang.yy",},},
     {"id":{"name":"snd_bear","path":"sounds/snd_bear/snd_bear.yy",},},
     {"id":{"name":"snd_beaver","path":"sounds/snd_beaver/snd_beaver.yy",},},

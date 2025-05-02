@@ -16,9 +16,7 @@ if (room == rm_level_one
 || room == rm_level_six
 || room == rm_level_seven) && global.gameState == GameState.PlayStarted
 {
-
-	set_song_ingame( msc_main3, 10, 10 );
-	
+	set_song_ingame(snd__main_song_tapwe, 10,10);	
 }
 
 if (room == rm_level_one
@@ -29,9 +27,7 @@ if (room == rm_level_one
 || room == rm_level_six
 || room == rm_level_seven) && global.gameState == GameState.PlayResumed
 {
-
-		audio_resume_sound(msc_main3);
-	
+		audio_resume_sound(snd__main_song_tapwe);	
 }
 
 
