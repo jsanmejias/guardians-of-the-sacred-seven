@@ -31,6 +31,8 @@ if(visible){
             room_goto(rm_credits); // <- Change this to whatever your final screen is
             break;
 	}
+	
+	global.gameState = GameState.PlayResumed;
 
 }
 

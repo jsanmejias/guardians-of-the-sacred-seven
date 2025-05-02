@@ -1,5 +1,5 @@
 var bg_sprite = noone;
-var snd = noone;
+snd = noone;
 
 // Choose the correct sprite and sound based on the previous level
 switch (global.current_room) {
@@ -49,7 +49,6 @@ if (bg_sprite != noone) {
 
 
 if (snd != noone) {
-    //audio_play_sound(snd_coin, 5, false); // This is fine as is
-    global.snd_id = audio_play_sound(snd, 10, false); // Save the ID
-    //audio_sound_gain(global.snd_id, 8, 10); // Apply fade-in volume
+    audio_play_sound(snd_coin, 5, false); // This is fine as is
+	alarm[0] = 60 * 1; // 1 second delay
 }

@@ -9,5 +9,6 @@ var levels = [
 ];
 
 if (btn_order > 0 && btn_order <= array_length(levels)) {
+	global.gameState = GameState.PlayStarted;
     room_goto(levels[btn_order - 1]);
 }

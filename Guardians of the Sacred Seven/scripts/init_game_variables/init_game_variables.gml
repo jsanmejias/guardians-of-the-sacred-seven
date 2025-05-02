@@ -1,4 +1,16 @@
 function init_game_variables(){
+
+//sound_id for audio playing
+global.snd_id = noone;
+	
+//playing state
+enum GameState {
+    PlayStarted,
+    PlayResumed
+}
+
+global.gameState = noone;
+
 	
 // Set global variables for the playable zone boundaries
 global.playable_zone_top_left = [256, 160];
