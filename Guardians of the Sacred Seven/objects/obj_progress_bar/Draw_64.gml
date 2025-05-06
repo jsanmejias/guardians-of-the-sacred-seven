@@ -7,7 +7,7 @@ draw_healthbar(_bar_x1, _bar_y1, _bar_x2, _bar_y2, health, c_black, c_green, c_g
 
 
 
-draw_set_font(-1); // Use the default font
+draw_set_font(fnt_default_small); // Use the default font
 draw_set_color(c_white); // Set the text color to white
-draw_text_transformed(room_width / 2 + 180, room_height - 90, string(floor(global.counter)), 2, 2, 0); // Scale text by 2x
+draw_text_transformed(room_width / 2 + 190, room_height - 70, string(floor(global.counter)), 2, 2, 0); // Scale text by 2x
 

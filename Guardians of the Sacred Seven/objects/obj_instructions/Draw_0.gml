@@ -1,5 +1,5 @@
 // Draw semi-transparent background
-draw_set_font(fnt_default);
+draw_set_font(fnt_default_small);
 draw_set_alpha(0.9);
 draw_set_color(c_ltgray); // Dark background
 draw_rectangle(room_width / 2 - 200, room_height - 60, room_width / 2 + 200, room_height - 30, false);
