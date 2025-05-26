@@ -200,6 +200,7 @@
     {"id":{"name":"rock_2","path":"sprites/rock_2/rock_2.yy",},},
     {"id":{"name":"rock","path":"sprites/rock/rock.yy",},},
     {"id":{"name":"sabe_6","path":"sprites/sabe_6/sabe_6.yy",},},
+    {"id":{"name":"spr_Healthbar","path":"sprites/spr_Healthbar/spr_Healthbar.yy",},},
     {"id":{"name":"spr_invisible_button","path":"sprites/spr_invisible_button/spr_invisible_button.yy",},},
     {"id":{"name":"spr_level_button","path":"sprites/spr_level_button/spr_level_button.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
